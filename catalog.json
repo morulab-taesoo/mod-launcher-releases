@@ -1,0 +1,37 @@
+{
+  "_": "런처에 보이는 프로그램 목록. 런처는 먼저 mod-launcher-releases 저장소의 이 파일을 받아 보고, 못 받으면 함께 들어 있는 이 파일을 써요.",
+  "apps": [
+    {
+      "id": "local-search",
+      "name": "로컬 검색",
+      "tagline": "내 PC 문서를 뜻으로 찾기",
+      "description": "한글·워드·PDF 본문을 뜻으로 찾아요. Claude 도구로도 써요.",
+      "releases": "morulab-taesoo/local-search-releases",
+      "asset": "LocalSearch-Setup-*.exe",
+      "uninstall_key": "{6E0C7C1E-4C4B-4E7A-9C55-2B6F1E3A7D41}_is1",
+      "display_name": "로컬 검색",
+      "exe": "LocalSearch.exe"
+    },
+    {
+      "id": "image-translate",
+      "name": "화면 번역",
+      "tagline": "화면 캡처와 이미지 번역",
+      "description": "캡처한 화면의 글자를 읽어 제자리에 번역해요. Claude 도구로도 써요.",
+      "releases": "morulab-taesoo/image-translate-releases",
+      "asset": "ImageTranslate-Setup-*.exe",
+      "uninstall_key": "{B6D3A7F2-5E81-4C2A-9F4D-7A1E3C8B2D60}_is1",
+      "display_name": "화면 번역",
+      "exe": "ImageTranslate.exe"
+    }
+  ],
+  "mods": [
+    {
+      "id": "turn-tip",
+      "plugin": "turn-tip@claude-mods",
+      "marketplace": "morulab-taesoo/ClaudeMods",
+      "name": "turn-tip",
+      "tagline": "Claude Code 모드",
+      "description": "턴이 끝날 때 확인하거나 직접 해야 할 일을 입력창 위 띠에 한 줄로 띄워요."
+    }
+  ]
+}
