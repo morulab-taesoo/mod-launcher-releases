@@ -27,8 +27,9 @@
   "mods": [
     {
       "id": "turn-tip",
-      "plugin": "turn-tip@claude-mods",
-      "marketplace": "morulab-taesoo/ClaudeMods",
+      "plugin": "turn-tip@morulab",
+      "marketplace": "morulab-taesoo/turn-tip",
+      "releases": "morulab-taesoo/turn-tip",
       "name": "turn-tip",
       "tagline": "Claude Code 모드",
       "description": "턴이 끝날 때 확인하거나 직접 해야 할 일을 입력창 위 띠에 한 줄로 띄워요."
