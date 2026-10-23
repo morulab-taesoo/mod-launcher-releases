@@ -19,6 +19,7 @@ morulab에서 만든 Windows 프로그램과 Claude Code 모드를 한 창에서
 |---|---|---|
 | 로컬 검색 | 내 PC 문서(한글·워드·PDF 등)를 뜻으로 찾아요. Claude 도구로도 써요. | [local-search-releases](https://github.com/morulab-taesoo/local-search-releases/releases) |
 | 화면 번역 | 캡처한 화면의 글자를 읽어 제자리에 번역해요. Claude 도구로도 써요. | [image-translate-releases](https://github.com/morulab-taesoo/image-translate-releases/releases) |
+| VoiceNote | 녹음을 이 PC 의 GPU·NPU 로 받아 적고, 화자를 나누고, 회의록으로 정리해요. | [voicenote-releases](https://github.com/morulab-taesoo/voicenote-releases/releases) |
 
 목록은 이 저장소의 [`catalog.json`](catalog.json)이에요. 런처가 켤 때마다 읽어서, 새 프로그램이 추가되면 런처를 다시 깔지 않아도 보여요.
 
