@@ -22,6 +22,17 @@
       "uninstall_key": "{B6D3A7F2-5E81-4C2A-9F4D-7A1E3C8B2D60}_is1",
       "display_name": "화면 번역",
       "exe": "ImageTranslate.exe"
+    },
+    {
+      "id": "voicenote",
+      "name": "VoiceNote",
+      "tagline": "녹음 받아쓰기와 회의록 요약",
+      "description": "녹음을 이 PC 의 GPU·NPU 로 받아 적고, 화자를 나누고, 회의록으로 정리해요.",
+      "releases": "morulab-taesoo/voicenote-releases",
+      "asset": "VoiceNote-Setup-*.exe",
+      "uninstall_key": "{4F2B8C1D-7A3E-4D6B-9E52-1C8A3F7B6D04}_is1",
+      "display_name": "VoiceNote",
+      "exe": "VoiceNote.exe"
     }
   ],
   "mods": [
