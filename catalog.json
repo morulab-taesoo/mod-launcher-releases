@@ -33,6 +33,17 @@
       "uninstall_key": "{4F2B8C1D-7A3E-4D6B-9E52-1C8A3F7B6D04}_is1",
       "display_name": "VoiceNote",
       "exe": "VoiceNote.exe"
+    },
+    {
+      "id": "session-board",
+      "name": "세션 진행 대시보드",
+      "tagline": "Claude 세션들이 어디까지 왔는지 한눈에",
+      "description": "세션마다 지금 단계·걸린/예상 시간·백그라운드 작업·답을 기다리는 세션을 미니 창으로 보여 줘요. 훅 플러그인도 함께 설치하세요.",
+      "releases": "morulab-taesoo/session-board-releases",
+      "asset": "SessionBoard-Setup-*.exe",
+      "uninstall_key": "{6EC8590C-7EB3-4BBC-B138-AAB7507870F2}_is1",
+      "display_name": "세션 진행 대시보드",
+      "exe": "SessionBoard.exe"
     }
   ],
   "mods": [
@@ -44,6 +55,15 @@
       "name": "turn-tip",
       "tagline": "Claude Code 모드",
       "description": "턴이 끝날 때 확인하거나 직접 해야 할 일을 입력창 위 띠에 한 줄로 띄워요."
+    },
+    {
+      "id": "session-board-hooks",
+      "plugin": "session-board@session-board",
+      "marketplace": "morulab-taesoo/session-board-releases",
+      "releases": "morulab-taesoo/session-board-releases",
+      "name": "세션 진행 대시보드 훅",
+      "tagline": "Claude Code 플러그인",
+      "description": "작업 목록이 실제보다 뒤처지지 않게 붙잡고, 예상 시간을 넘기면 중간 점검·재계산을 하게 해요. 세션 진행 대시보드를 먼저 설치하세요."
     }
   ]
 }
