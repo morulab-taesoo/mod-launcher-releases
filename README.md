@@ -16,12 +16,22 @@ morulab에서 만든 Windows 앱과 Claude Code 모드를 한 창에서 설치�
 
 ## 쓰는 법
 
+창 위쪽 툴바:
+
+| 툴바 | 하는 일 |
+|---|---|
+| 새로 고침 (`F5`) | 설치 상태를 다시 읽고, 새 버전도 30분을 기다리지 않고 바로 확인해요 |
+| 정렬 | 이름 (가–하) · 최근 릴리스순 · 종류별. 고른 정렬은 다음에 켤 때도 그대로예요 |
+| 모드·앱 찾기 | 이름·설명에 든 글자로 목록을 좁혀요 |
+| 격자·목록 | 카드를 격자로 볼지 한 줄씩 볼지 바꿔요. 이것도 기억해요 |
+| 설정(⚙, 제목 줄) | `claude.exe` 경로, 받은 설치 파일 폴더 열기, 설치·켜기·끄기 명령의 로그 |
+
 목록의 카드마다 지금 상태에 맞는 버튼이 떠요.
 
 | 카드 | 버튼 |
 |---|---|
 | 설치하지 않은 앱 | **설치** |
-| 설치한 앱 | **열기**, 새 버전이 있으면 **업데이트**. **…** 메뉴에 종료·다시 설치·설치 폴더 열기·릴리스 노트 보기·제거 |
+| 설치한 앱 | **열기**, 새 버전이 있으면 **업데이트**. **…** 메뉴에 종료·다시 설치·설치 폴더 열기·Windows 시작 시 실행(켬·끔)·릴리스 노트 보기·제거 |
 | 모드 | **설치**, 설치했으면 **켜기**/**끄기**. **…** 메뉴에 업데이트 확인·설치 폴더 열기·제거 |
 
 모드를 설치하거나 켜고 끈 뒤에는 열려 있는 Claude Code 세션에서 `/reload-plugins`를 하면 반영돼요.
@@ -34,6 +44,8 @@ morulab에서 만든 Windows 앱과 Claude Code 모드를 한 창에서 설치�
 | 화면 번역 | 캡처한 화면의 글자를 읽어 제자리에 번역해요. Claude 도구로도 써요. | [image-translate-releases](https://github.com/morulab-taesoo/image-translate-releases) |
 | VoiceNote | 녹음을 이 PC의 GPU·NPU로 받아 적고, 화자를 나누고, 회의록으로 정리해요. | [voicenote-releases](https://github.com/morulab-taesoo/voicenote-releases) |
 | turn-tip (모드) | Claude Code의 턴이 끝날 때 확인하거나 직접 해야 할 일을 입력창 위 띠에 한 줄로 띄워요. | [turn-tip](https://github.com/morulab-taesoo/turn-tip) |
+| 세션 진행 대시보드 | Claude 세션마다 지금 단계·걸린/예상 시간·백그라운드 작업·답을 기다리는 세션을 미니 창으로 보여 줘요. | [session-board-releases](https://github.com/morulab-taesoo/session-board-releases) |
+| 세션 진행 대시보드 훅 (모드) | 작업 목록이 실제보다 뒤처지지 않게 붙잡고, 예상 시간을 넘기면 중간 점검·재계산을 하게 해요. 대시보드를 먼저 설치하세요. | [session-board-releases](https://github.com/morulab-taesoo/session-board-releases) |
 
 목록은 이 저장소의 [`catalog.json`](catalog.json)이에요. 런처를 켤 때마다 읽어서, 새 앱이 추가되면 런처를 다시 깔지 않아도 보여요.
 
@@ -53,4 +65,4 @@ Windows 설정 → 앱에서 **모드 런처**를 제거해요. 런처로 설치
 
 ## 알려진 한계
 
-- GitHub는 로그인 없이 시간당 60번까지만 물어볼 수 있어요. 짧은 시간에 런처를 여러 번 켜면 새 버전 확인이 잠시 안 될 수 있어요.
+- GitHub는 로그인 없이 시간당 60번까지만 물어볼 수 있어서, 새 버전은 30분에 한 번만 확인해요. 바로 확인하려면 툴바의 새로 고침 단추나 `F5`를 누르세요. 한도가 차면 풀릴 때까지 지난번 확인 결과를 보여 줘요.
